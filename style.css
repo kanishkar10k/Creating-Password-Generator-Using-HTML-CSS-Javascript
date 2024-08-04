@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #134B70;
+}
+.d1
+{
+    max-width: 600px;
+    margin: 150px auto;
+    background-color: skyblue;
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+label {
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="checkbox"] {
+    margin: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #44b126;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#password {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: red;
+}
+p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#Mixed{
+    margin-top: 2px;
+    width: 20px;
+    height: 20px;
+    color: #44b126;
+    background-color: #44b126;
+}
+h1{
+    color: darkcyan;
+}
